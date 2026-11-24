@@ -98,3 +98,42 @@ Para sostener esta infraestructura que conecta millones de ubicaciones físicas 
 | **IA y Visión Artificial** | Segmentación Semántica / LGM | Automatiza la digitalización 3D del mundo real hacia las bases de datos centrales. |
 | **Cloud y Edge Computing** | Google Cloud (GKE, Spanner) + SLAM móvil | Sincroniza la alta frecuencia de sensores físicos con microservicios escalables sin latencia. |
 | **Big Data Geoespacial** | Google S2 Geometry / Pipelines telemetría | Verifica la autenticidad física de las operaciones digitales y detecta anomalías espaciales. |
+
+---
+
+## 5. Conclusiones
+
+Tras analizar la arquitectura tecnológica de **Niantic (Niantic Spatial, Inc.)**, se concluye que la Tecnología Habilitadora Digital más determinante para su modelo de negocio actual es la **Inteligencia Artificial (IA) y Visión por Computador**.
+
+Aunque las cuatro tecnologías estudiadas trabajan de forma estrechamente acoplada, la IA espacial destaca como el pilar estratégico fundamental por tres motivos principales:
+
+1. **Núcleo de su ventaja competitiva actual:** Tras la venta de su catálogo de videojuegos licenciados a Scopely en 2025, el valor diferencial de Niantic Spatial ya no reside en las franquicias de entretenimiento, sino en su **Large Geospatial Model (LGM)** y en su plataforma de computación espacial. La capacidad de entrenar modelos de IA con millones de escaneos reales crea una barrera de entrada tecnológica muy difícil de replicar para otros competidores del sector TIC.
+2. **Motor habilitador del resto de THD:** Sin los algoritmos de visión por computador (segmentación semántica en tiempo real, reconstrucción 3D mediante NeRF y *Gaussian Splatting*), la **Realidad Aumentada** y el **Sistema de Posicionamiento Visual (VPS)** carecerían de precisión centimétrica y coherencia física. Del mismo modo, la IA es indispensable para extraer valor del **Big Data geoespacial** y optimizar qué datos se procesan en el *Edge* antes de enviarse al *Cloud*.
+3. **Clave en la integración IT-OT a escala planetaria:** Digitalizar y mantener actualizado un mapa 3D del mundo físico (OT) dentro de bases de datos corporativas (IT) sería económicamente inviable mediante trabajo manual. La IA automatiza este puente de principio a fin: valida escaneos, anonimiza datos sensibles para cumplir con la normativa de privacidad y reconstruye entornos tridimensionales de forma autónoma.
+
+En definitiva, mientras que el *Cloud/Edge Computing* aporta la estabilidad operativa y el *Big Data* garantiza la integridad geográfica, la **Inteligencia Artificial y Visión por Computador** es la tecnología que convierte el mundo físico en un producto digital escalable y monetizable para Niantic.
+
+---
+
+## 6. Fuentes
+
+### Fuentes generales de la empresa
+* **Niantic Spatial, Inc. — Web corporativa oficial:** [https://www.nianticspatial.com/](https://www.nianticspatial.com/)
+* **Niantic, Inc. — Portal corporativo y sala de prensa:** [https://nianticlabs.com/](https://nianticlabs.com/)
+
+### 6.1. Realidad Aumentada (AR) y Computación Espacial
+* **Niantic Lightship — Plataforma oficial para desarrolladores AR:** [https://lightship.dev/](https://lightship.dev/)
+* **Documentación técnica de Lightship ARDK y Visual Positioning System (VPS):** [https://lightship.dev/docs/ardk/](https://lightship.dev/docs/ardk/)
+
+### 6.2. Inteligencia Artificial (IA) y Visión por Computador
+* **Niantic Research — Publicaciones sobre visión por computador, reconstrucción 3D y Spatial AI:** [https://research.nianticlabs.com/](https://research.nianticlabs.com/)
+* **Niantic News — Anuncios técnicos sobre el Large Geospatial Model (LGM) y segmentación semántica:** [https://nianticlabs.com/news](https://nianticlabs.com/news)
+
+### 6.3. Cloud Computing y Edge Computing
+* **Google Cloud — Caso de estudio oficial de Niantic (arquitectura escalable con GKE y Spanner):** [https://cloud.google.com/customers/niantic](https://cloud.google.com/customers/niantic)
+* **Google Cloud — Documentación técnica de Google Kubernetes Engine (GKE):** [https://cloud.google.com/kubernetes-engine](https://cloud.google.com/kubernetes-engine)
+* **Google Cloud — Documentación técnica de Cloud Spanner:** [https://cloud.google.com/spanner](https://cloud.google.com/spanner)
+
+### 6.4. Big Data y Analítica Geoespacial
+* **S2 Geometry — Documentación oficial de la librería de indexación espacial jerárquica:** [https://s2geometry.io/](https://s2geometry.io/)
+* **Niantic Wayfarer — Portal oficial de gestión y validación de puntos de interés geoespaciales (Wayspots):** [https://wayfarer.nianticlabs.com/](https://wayfarer.nianticlabs.com/)
